@@ -1,0 +1,7 @@
+numerometros = float(input('Digite um valor em metros: '))
+print('Seu valor em kilômetros: {:.3f}'.format(numerometros/1000))
+print('Seu valor em hectômetro: {:.2f}'.format(numerometros/100))
+print('Seu valor em decametro: {:.2f}'.format(numerometros/10))
+print('Seu valor em decimetro: {:.1f}'.format(numerometros * 10))
+print('Seu valor em centímetros é: {:.1f}'.format(numerometros * 100))
+print('Seu valor em milímitros é: {:.1f}'.format(numerometros * 1000))
